@@ -3,17 +3,17 @@
   - [Unity](#unity)
   - [Git, Github and Gitkraken](#git-github-and-gitkraken)
   - [VSCode](#vscode)
-  - [Lessons](#lessons)
-  - [Assignments](#assignments)
-  - [Unity overview](#unity-overview)
-  - [Expected learning](#expected-learning)
-    - [0. Getting started & HelloWorld!](#0-getting-started--helloworld)
-    - [1. Variables and basic types](#1-variables-and-basic-types)
-    - [2. arithemic, conditions and flow](#2-arithemic-conditions-and-flow)
-    - [3. Arrays and loops](#3-arrays-and-loops)
-    - [4. OOP, Classes and objects](#4-oop-classes-and-objects)
-    - [5. OOP continued, methods, scopes and accessors](#5-oop-continued-methods-scopes-and-accessors)
-    - [6. Polymorphism; interfaces and inheritance](#6-polymorphism-interfaces-and-inheritance)
+- [Lessons](#lessons)
+- [Assignments](#assignments)
+- [Unity overview](#unity-overview)
+- [Expected learning](#expected-learning)
+  - [0. Getting started & HelloWorld!](#0-getting-started--helloworld)
+  - [1. Variables and basic types](#1-variables-and-basic-types)
+  - [2. arithemic, conditions and flow](#2-arithemic-conditions-and-flow)
+  - [3. Arrays and loops](#3-arrays-and-loops)
+  - [4. OOP, Classes and objects](#4-oop-classes-and-objects)
+  - [5. OOP continued, methods, scopes and accessors](#5-oop-continued-methods-scopes-and-accessors)
+  - [6. Polymorphism; interfaces and inheritance](#6-polymorphism-interfaces-and-inheritance)
     - [7. Extending Unitys MonoBehaviour and GameObjects](#7-extending-unitys-monobehaviour-and-gameobjects)
 
 # Start here
@@ -45,22 +45,22 @@ The Unity engine is an incredibly sophisticated platform mainly focused on creat
  * HomePage
  * [INSTALL-GIF]
 
-## Lessons
+# Lessons
 
 All lessons will have a corresponding subdirectory under the "Assets" folder with individual instructions best read via Github
 
 In the lesson folders there is a "Study" folder with extra material and examples.
 
-## Assignments
+# Assignments
 
  * Go through all Scenes in the different lesssons folders
  * Fix all broken tests 
  * Push fixes to your own github repository
 
-## Unity overview
+# Unity overview
 
 
-## Expected learning
+# Expected learning
 
 Lessons 0 -> 7, have been created to accomodate:
 
@@ -70,21 +70,21 @@ Boerne- og Undervisningsministeriet Styrelsen for Undervisning og Kvalitet, juni
 The aim is to provide the student with a good foundation for understanding how software works and is developed and allow for the students to continue learning on their own.
 
 
-### 0. Getting started & HelloWorld!
+## 0. Getting started & HelloWorld!
 
 [Getting started](Assets/0_Lesson_GettingStarted/README.md)
 
-### 1. Variables and basic types
+## 1. Variables and basic types
 
-### 2. arithemic, conditions and flow
+## 2. arithemic, conditions and flow
 
-### 3. Arrays and loops
+## 3. Arrays and loops
 
-### 4. OOP, Classes and objects
+## 4. OOP, Classes and objects
 
-### 5. OOP continued, methods, scopes and accessors
+## 5. OOP continued, methods, scopes and accessors
 
-### 6. Polymorphism; interfaces and inheritance
+## 6. Polymorphism; interfaces and inheritance
 
 ### 7. Extending Unitys MonoBehaviour and GameObjects
 
