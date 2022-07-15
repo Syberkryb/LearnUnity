@@ -72,6 +72,8 @@ The aim is to provide the student with a good foundation for understanding how s
 
 ### 0. Getting started & HelloWorld!
 
+[Getting started](Assets/0_Lesson_GettingStarted/README.md)
+
 ### 1. Variables and basic types
 
 ### 2. arithemic, conditions and flow
