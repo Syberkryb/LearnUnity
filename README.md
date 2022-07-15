@@ -1,3 +1,21 @@
+- [Start here](#start-here)
+- [Installation of required tools](#installation-of-required-tools)
+  - [Unity](#unity)
+  - [Git, Github and Gitkraken](#git-github-and-gitkraken)
+  - [VSCode](#vscode)
+  - [Lessons](#lessons)
+  - [Assignments](#assignments)
+  - [Unity overview](#unity-overview)
+  - [Expected learning](#expected-learning)
+    - [0. Getting started & HelloWorld!](#0-getting-started--helloworld)
+    - [1. Variables and basic types](#1-variables-and-basic-types)
+    - [2. arithemic, conditions and flow](#2-arithemic-conditions-and-flow)
+    - [3. Arrays and loops](#3-arrays-and-loops)
+    - [4. OOP, Classes and objects](#4-oop-classes-and-objects)
+    - [5. OOP continued, methods, scopes and accessors](#5-oop-continued-methods-scopes-and-accessors)
+    - [6. Polymorphism; interfaces and inheritance](#6-polymorphism-interfaces-and-inheritance)
+    - [7. Extending Unitys MonoBehaviour and GameObjects](#7-extending-unitys-monobehaviour-and-gameobjects)
+
 # Start here
 
 You will as a student be placed on top of many layers of software developed over the last hundred years
