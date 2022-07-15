@@ -3,10 +3,8 @@
   - [Unity](#unity)
   - [Git, Github and Gitkraken](#git-github-and-gitkraken)
   - [VSCode](#vscode)
-- [Lessons](#lessons)
 - [Assignments](#assignments)
-- [Unity overview](#unity-overview)
-- [Expected learning](#expected-learning)
+- [Lessons](#lessons)
   - [0. Getting started & HelloWorld!](#0-getting-started--helloworld)
   - [1. Variables and basic types](#1-variables-and-basic-types)
   - [2. Arithemic, conditions and flow](#2-arithemic-conditions-and-flow)
@@ -15,6 +13,8 @@
   - [5. OOP continued, methods, scopes and accessors](#5-oop-continued-methods-scopes-and-accessors)
   - [6. Polymorphism; interfaces and inheritance](#6-polymorphism-interfaces-and-inheritance)
   - [7. Extending Unitys MonoBehaviour and GameObjects](#7-extending-unitys-monobehaviour-and-gameobjects)
+- [Unity overview](#unity-overview)
+- [Expected learning](#expected-learning)
 
 # Start here
 
@@ -47,17 +47,45 @@ The Unity engine is a modern game and animation platform
  * HomePage
  * [INSTALL-GIF]
 
-# Lessons
-
-All lessons will have a corresponding subdirectory under the "Assets" folder with individual instructions best read via Github
-
-In the lesson folders there is a "Study" folder with extra material and examples.
 
 # Assignments
 
  * Go through all Scenes in the different lesssons folders
  * Fix all broken tests 
  * Push fixes to your own github repository
+
+# Lessons
+
+All lessons will have a corresponding subdirectory under the "Assets" folder with individual instructions best read via Github
+
+In the lesson folders there is a "Study" folder with extra material and examples.
+
+## 0. Getting started & HelloWorld!
+
+In the first lesson we will:
+
+ * Ensure everyone is setup
+ * Overview of Git, Github and Gitkraken 
+ * Overview of Unity
+ * Overview of VSCode
+ * Solve the first assignment together
+ * Upload solution to own repository
+
+See the [Getting started](Assets/0_Lesson_GettingStarted) chapter for further instructions.
+
+## 1. Variables and basic types
+
+## 2. Arithemic, conditions and flow
+
+## 3. Arrays and loops
+
+## 4. OOP, Classes and objects
+
+## 5. OOP continued, methods, scopes and accessors
+
+## 6. Polymorphism; interfaces and inheritance
+
+## 7. Extending Unitys MonoBehaviour and GameObjects
 
 # Unity overview
 
@@ -73,21 +101,5 @@ Boerne- og Undervisningsministeriet Styrelsen for Undervisning og Kvalitet, juni
 The aim is to provide the student with a good foundation for understanding how software works and is developed and allow for the students to continue learning on their own.
 
 
-## 0. Getting started & HelloWorld!
 
-[Getting started](Assets/0_Lesson_GettingStarted)
-
-## 1. Variables and basic types
-
-## 2. Arithemic, conditions and flow
-
-## 3. Arrays and loops
-
-## 4. OOP, Classes and objects
-
-## 5. OOP continued, methods, scopes and accessors
-
-## 6. Polymorphism; interfaces and inheritance
-
-## 7. Extending Unitys MonoBehaviour and GameObjects
 
