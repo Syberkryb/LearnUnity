@@ -9,12 +9,12 @@
 - [Expected learning](#expected-learning)
   - [0. Getting started & HelloWorld!](#0-getting-started--helloworld)
   - [1. Variables and basic types](#1-variables-and-basic-types)
-  - [2. arithemic, conditions and flow](#2-arithemic-conditions-and-flow)
+  - [2. Arithemic, conditions and flow](#2-arithemic-conditions-and-flow)
   - [3. Arrays and loops](#3-arrays-and-loops)
   - [4. OOP, Classes and objects](#4-oop-classes-and-objects)
   - [5. OOP continued, methods, scopes and accessors](#5-oop-continued-methods-scopes-and-accessors)
   - [6. Polymorphism; interfaces and inheritance](#6-polymorphism-interfaces-and-inheritance)
-    - [7. Extending Unitys MonoBehaviour and GameObjects](#7-extending-unitys-monobehaviour-and-gameobjects)
+  - [7. Extending Unitys MonoBehaviour and GameObjects](#7-extending-unitys-monobehaviour-and-gameobjects)
 
 # Start here
 
@@ -24,10 +24,12 @@ You will come to use C# as your language to interact with the Unity game engine 
 
 So what did that all mean? If you follow below guide, you will come to know, I promise!
 
+We will start by installing the 
+
 # Installation of required tools
 
 ## Unity
-The Unity engine is an incredibly sophisticated platform mainly focused on creating games for all platforms
+The Unity engine is a modern game and animation platform
  
  * Required minimum version 2021.3.1f1
  * HomePage
@@ -60,6 +62,7 @@ In the lesson folders there is a "Study" folder with extra material and examples
 # Unity overview
 
 
+
 # Expected learning
 
 Lessons 0 -> 7, have been created to accomodate:
@@ -72,11 +75,11 @@ The aim is to provide the student with a good foundation for understanding how s
 
 ## 0. Getting started & HelloWorld!
 
-[Getting started](Assets/0_Lesson_GettingStarted/README.md)
+[Getting started](Assets/0_Lesson_GettingStarted)
 
 ## 1. Variables and basic types
 
-## 2. arithemic, conditions and flow
+## 2. Arithemic, conditions and flow
 
 ## 3. Arrays and loops
 
@@ -86,5 +89,5 @@ The aim is to provide the student with a good foundation for understanding how s
 
 ## 6. Polymorphism; interfaces and inheritance
 
-### 7. Extending Unitys MonoBehaviour and GameObjects
+## 7. Extending Unitys MonoBehaviour and GameObjects
 
