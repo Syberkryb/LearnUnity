@@ -17,7 +17,8 @@ I found an interesting Github repository with a collection of many old games cre
 
 I used GitKraken to "Clone" this repository on Github
 
-And I learned that a repository is just a bunch of code in a folder/directory that keeps track of files to which can be synchronized to a server, in my case, Github.com
+And I learned that a repository is just a bunch of files, mainly source code though, in a folder/directory that keeps track of file changes 
+which can be synchronized to a server, in my case, Github.com
 
 Just like Dropbox, Onedrive, ICloud, and the others... But I have to make the "versions" or "commits" which basically means updates but with versions.
 
@@ -32,7 +33,6 @@ I created a commit and pushed changes to my repository
 ### VSCode
 
 I have used VSCode to change the source code of the helloworld program
-
 
 Maybe I'm gonna install an extension
 
