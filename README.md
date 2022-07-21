@@ -13,7 +13,6 @@
   - [5. OOP continued, methods, scopes and accessors](#5-oop-continued-methods-scopes-and-accessors)
   - [6. Polymorphism; interfaces and inheritance](#6-polymorphism-interfaces-and-inheritance)
   - [7. Extending Unitys MonoBehaviour and GameObjects](#7-extending-unitys-monobehaviour-and-gameobjects)
-- [Unity overview](#unity-overview)
 - [Expected learning](#expected-learning)
 
 # Start here
@@ -24,13 +23,11 @@ You will come to use C# as your language to interact with the Unity game engine 
 
 So what did that all mean? If you follow below guide, you will come to know, I promise!
 
-We will start by installing the 
-
 # Installation of required tools
 
 ## Unity
-The Unity engine is a modern game and animation platform
- 
+The Unity engine is a game and animation platform, we will use this tool to get insight into how modern software is developed.
+
  * Required minimum version 2021.3.1f1
  * HomePage
  * [INSTALL-GIF]
@@ -87,10 +84,6 @@ See the [Getting started](Assets/0_Lesson_GettingStarted) chapter for further in
 
 ## 7. Extending Unitys MonoBehaviour and GameObjects
 
-# Unity overview
-
-
-
 # Expected learning
 
 Lessons 0 -> 7, have been created to accomodate:
@@ -99,7 +92,3 @@ Programmering B, valgfag
 Boerne- og Undervisningsministeriet Styrelsen for Undervisning og Kvalitet, juni 2021
 
 The aim is to provide the student with a good foundation for understanding how software works and is developed and allow for the students to continue learning on their own.
-
-
-
-

@@ -19,12 +19,38 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
-  m_RootView: {fileID: 8}
+  m_Title: Console
+  m_RootView: {fileID: 9}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: GameView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 695
+    y: 0
+    width: 362
+    height: 550
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 20}
+  m_Panes:
+  - {fileID: 20}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40,17 +66,17 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 394
-    width: 835
-    height: 553
+    y: 625
+    width: 863
+    height: 322
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 14}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &3
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -63,19 +89,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 5}
-  - {fileID: 2}
+  - {fileID: 6}
+  - {fileID: 3}
   m_Position:
     serializedVersion: 2
-    x: 1085
+    x: 1057
     y: 0
-    width: 835
+    width: 863
     height: 947
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 93
---- !u!114 &4
+  controlID: 87
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -88,44 +114,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 11}
-  - {fileID: 3}
+  - {fileID: 12}
+  - {fileID: 4}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 300, y: 200}
-  m_MaxSize: {x: 24288, y: 16192}
+  m_MinSize: {x: 400, y: 200}
+  m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 81
---- !u!114 &5
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 835
-    height: 394
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 16}
-  m_Panes:
-  - {fileID: 16}
-  m_Selected: 0
-  m_LastSelected: 0
+  controlID: 86
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -143,10 +143,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 322
-    height: 550
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+    width: 863
+    height: 625
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -162,24 +162,50 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 314
+    height: 550
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 550
-    width: 1085
+    width: 1057
     height: 397
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 21}
   m_Panes:
-  - {fileID: 15}
-  - {fileID: 20}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &8
+  - {fileID: 16}
+  - {fileID: 21}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -192,9 +218,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 9}
-  - {fileID: 4}
   - {fileID: 10}
+  - {fileID: 5}
+  - {fileID: 11}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -207,7 +233,7 @@ MonoBehaviour:
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &9
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -229,7 +255,7 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &10
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -250,31 +276,6 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &11
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 12}
-  - {fileID: 7}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1085
-    height: 947
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: 82
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -288,19 +289,45 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 6}
   - {fileID: 13}
+  - {fileID: 8}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1085
-    height: 550
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-  controlID: 83
+    width: 1057
+    height: 947
+  m_MinSize: {x: 300, y: 200}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 1
+  controlID: 5570
 --- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 7}
+  - {fileID: 14}
+  - {fileID: 2}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1057
+    height: 550
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 8096}
+  vertical: 0
+  controlID: 5571
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -315,19 +342,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 322
+    x: 314
     y: 0
-    width: 763
+    width: 381
     height: 550
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 18}
   - {fileID: 19}
   m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &14
+  m_LastSelected: 0
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -347,21 +373,21 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1085
-    y: 467
-    width: 834
-    height: 532
+    x: 1057
+    y: 698
+    width: 862
+    height: 301
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_Spl:
-    ID: 125
+    ID: 124
     splitterInitialOffset: 186
     currentActiveSplitter: -1
     realSizes:
-    - 242
-    - 220
+    - 121
+    - 110
     relativeSizes:
     - 0.52444446
     - 0.47555554
@@ -371,7 +397,7 @@ MonoBehaviour:
     maxSizes:
     - 0
     - 0
-    lastTotalSize: 462
+    lastTotalSize: 231
     splitSize: 6
     xOffset: 0
     m_Version: 1
@@ -381,15 +407,15 @@ MonoBehaviour:
     oldSplitSize: 0
   m_TestTypeToolbarIndex: 0
   m_PlayModeTestListGUI:
-    m_Window: {fileID: 14}
+    m_Window: {fileID: 15}
     m_NewResultList:
     - id: 1005
       uniqueId: '[LearnProgramming][suite]'
       name: LearnProgramming
       fullName: LearnProgramming
-      resultStatus: 1
-      duration: 0.2645098
-      messages: 
+      resultStatus: 2
+      duration: 0.2359967
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -403,9 +429,9 @@ MonoBehaviour:
       uniqueId: '[Playmode][C:/Users/Pukla/LearnProgramming/Library/ScriptAssemblies/Playmode.dll][suite]'
       name: Playmode.dll
       fullName: C:/Users/Pukla/LearnProgramming/Library/ScriptAssemblies/Playmode.dll
-      resultStatus: 1
-      duration: 0.1461735
-      messages: 
+      resultStatus: 2
+      duration: 0.128377
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -419,9 +445,9 @@ MonoBehaviour:
       uniqueId: Playmode.dll/[Playmode][Lesson_0_test][suite]
       name: Lesson_0_test
       fullName: Lesson_0_test
-      resultStatus: 1
-      duration: 0.1389904
-      messages: 
+      resultStatus: 2
+      duration: 0.1192354
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -436,11 +462,9 @@ MonoBehaviour:
       name: CheckSetupTest
       fullName: Lesson_0_test.CheckSetupTest
       resultStatus: 1
-      duration: 0.0717648
+      duration: 0.0648849
       messages: 
       output: 'Scene loaded
-
-        HelloWorld!
 
         References set
 
@@ -455,14 +479,22 @@ MonoBehaviour:
       parentId: 1001
       parentUniqueId: Playmode.dll/[Playmode][Lesson_0_test][suite]
     - id: 1004
-      uniqueId: Playmode.dll/Lesson_0_test/[Playmode][Lesson_0_test.HelloStringVariableTest]
-      name: HelloStringVariableTest
-      fullName: Lesson_0_test.HelloStringVariableTest
-      resultStatus: 1
-      duration: 0.0205576
-      messages: 
+      uniqueId: Playmode.dll/Lesson_0_test/[Playmode][Lesson_0_test.HelloStringPublicStringExistsTest]
+      name: HelloStringPublicStringExistsTest
+      fullName: Lesson_0_test.HelloStringPublicStringExistsTest
+      resultStatus: 2
+      duration: 0.019312
+      messages: "  couldn't find public string helloString\r\n  Expected: True\r\n 
+        But was:  False\r\n"
       output: 
-      stacktrace: 
+      stacktrace: 'at Lesson_0_test+<HelloStringPublicStringExistsTest>d__8.MoveNext
+        () [0x00032] in C:\Users\Pukla\LearnProgramming\Assets\0_Lesson_GettingStarted\Tests\Playmode\Lesson_0_test.cs:71
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
+        in C:\Users\Pukla\LearnProgramming\Library\PackageCache\com.unity.test-framework@1.1.31\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
+
+'
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -472,14 +504,22 @@ MonoBehaviour:
       parentId: 1001
       parentUniqueId: Playmode.dll/[Playmode][Lesson_0_test][suite]
     - id: 1003
-      uniqueId: Playmode.dll/Lesson_0_test/[Playmode][Lesson_0_test.PrintMethodTest]
-      name: PrintMethodTest
-      fullName: Lesson_0_test.PrintMethodTest
-      resultStatus: 1
-      duration: 0.010891
-      messages: 
+      uniqueId: Playmode.dll/Lesson_0_test/[Playmode][Lesson_0_test.PrintHelloWorldMessageExistsTest]
+      name: PrintHelloWorldMessageExistsTest
+      fullName: Lesson_0_test.PrintHelloWorldMessageExistsTest
+      resultStatus: 2
+      duration: 0.0102338
+      messages: "  Couldn't find PrintHelloWorldMessage() method in class, are you
+        sure you've spelled it right?\r\n  Expected: not null\r\n  But was:  null\r\n"
       output: 
-      stacktrace: 
+      stacktrace: 'at Lesson_0_test+<PrintHelloWorldMessageExistsTest>d__7.MoveNext
+        () [0x0002b] in C:\Users\Pukla\LearnProgramming\Assets\0_Lesson_GettingStarted\Tests\Playmode\Lesson_0_test.cs:62
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
+        in C:\Users\Pukla\LearnProgramming\Library\PackageCache\com.unity.test-framework@1.1.31\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
+
+'
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -492,11 +532,19 @@ MonoBehaviour:
       uniqueId: Playmode.dll/Lesson_0_test/[Playmode][Lesson_0_test.StartMethodTest]
       name: StartMethodTest
       fullName: Lesson_0_test.StartMethodTest
-      resultStatus: 1
-      duration: 0.0188334
-      messages: 
+      resultStatus: 2
+      duration: 0.0085605
+      messages: "  Couldn't find Start() method in class, are you sure you've spelled
+        it right?\r\n  Expected: not null\r\n  But was:  null\r\n"
       output: 
-      stacktrace: 
+      stacktrace: 'at Lesson_0_test+<StartMethodTest>d__9.MoveNext () [0x0002b] in
+        C:\Users\Pukla\LearnProgramming\Assets\0_Lesson_GettingStarted\Tests\Playmode\Lesson_0_test.cs:81
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
+        in C:\Users\Pukla\LearnProgramming\Library\PackageCache\com.unity.test-framework@1.1.31\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
+
+'
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -505,12 +553,19 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: Playmode.dll/[Playmode][Lesson_0_test][suite]
-    m_ResultText: Lesson_0_test (0.139s)
+    m_ResultText: 'CheckSetupTest (0.065s)
+
+      ---
+
+      Scene loaded
+
+      References
+      set'
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b3e6e4fe
-      m_LastClickedID: -18553165
+      m_SelectedIDs: 73eb466b
+      m_LastClickedID: 1799809907
       m_ExpandedIDs: dfb0afb0d8b773b6b3e6e4febb5ece7dffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -539,7 +594,7 @@ MonoBehaviour:
       - Uncategorized
     m_SelectedOption: 0
   m_EditModeTestListGUI:
-    m_Window: {fileID: 14}
+    m_Window: {fileID: 15}
     m_NewResultList:
     - id: 1000
       uniqueId: '[LearnProgramming][suite]'
@@ -589,7 +644,7 @@ MonoBehaviour:
       selectedCategoryMask: 0
       availableCategories:
       - Uncategorized
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -611,7 +666,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 623
-    width: 1084
+    width: 1056
     height: 376
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -630,22 +685,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/0_Lesson_GIT
+    - Assets/1_Lesson_BasicVariables/Study
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/0_Lesson_GIT
+  - Assets/1_Lesson_BasicVariables/Study
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Pukla\LearnProgramming
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c8580000
-    m_LastClickedID: 22728
-    m_ExpandedIDs: 00000000c6580000c858000000ca9a3b
+    m_SelectedIDs: 14590000
+    m_LastClickedID: 22804
+    m_ExpandedIDs: 00000000ca580000de580000f058000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -661,7 +716,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 7}
+      m_ClientGUIView: {fileID: 8}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -673,7 +728,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c6580000c8580000
+    m_ExpandedIDs: 00000000ca580000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -698,8 +753,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 7e580000
+    m_LastClickedInstanceID: 22654
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000000000000c8580000ea5a0000
     m_RenameOverlay:
@@ -717,7 +772,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 7}
+      m_ClientGUIView: {fileID: 8}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -729,7 +784,7 @@ MonoBehaviour:
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -749,10 +804,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1085
+    x: 1057
     y: 73
-    width: 834
-    height: 373
+    width: 862
+    height: 604
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -770,7 +825,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -792,7 +847,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 321
+    width: 313
     height: 529
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -801,9 +856,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ee5a0000
+      m_SelectedIDs: c6dcffff
       m_LastClickedID: 0
-      m_ExpandedIDs: d8e7ffffdae7ffff2ce8ffffd8e9ffffe8eaffff3aebffffd6ecffff26efffff78effffff4f0ffff12f2ffff64f2ffff00f4fffff2f5ffff44f6ffffc0f7ffff28f8ffff7af8ffff1afaffff3afbffff
+      m_ExpandedIDs: 3afbffff7e580000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -819,7 +874,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 6}
+        m_ClientGUIView: {fileID: 7}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -827,7 +882,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -847,9 +902,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 322
+    x: 314
     y: 73
-    width: 761
+    width: 379
     height: 529
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1052,9 +1107,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.65066147, y: 2.8634925, z: -0.99710894}
+    m_Target: {x: 1348.2202, y: 2308.0046, z: 209.20349}
     speed: 2
-    m_Value: {x: 0.65066147, y: 2.8634925, z: -0.99710894}
+    m_Value: {x: 1348.2202, y: 2308.0046, z: 209.20349}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1101,13 +1156,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.05269876, y: 0.8810736, z: -0.1011574, w: 0.45903414}
+    m_Target: {x: 0.13483097, y: 0.031201737, z: -0.0042525474, w: 0.99037594}
     speed: 2
-    m_Value: {x: 0.052698422, y: 0.88106793, z: -0.10115675, w: 0.4590312}
+    m_Value: {x: 0.13482992, y: 0.031201495, z: -0.0042525143, w: 0.99036825}
   m_Size:
-    m_Target: 7.334354
+    m_Target: 986669.2
     speed: 2
-    m_Value: 7.0185204
+    m_Value: 986669.2
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1132,7 +1187,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &19
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1152,10 +1207,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 258
+    x: 695
     y: 73
-    width: 819
-    height: 540
+    width: 360
+    height: 529
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1166,7 +1221,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 819, y: 519}
+  m_TargetSize: {x: 360, y: 508}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1181,10 +1236,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -409.5
-    m_HBaseRangeMax: 409.5
-    m_VBaseRangeMin: -259.5
-    m_VBaseRangeMax: 259.5
+    m_HBaseRangeMin: -180
+    m_HBaseRangeMax: 180
+    m_VBaseRangeMin: -254
+    m_VBaseRangeMax: 254
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1193,7 +1248,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1202,29 +1257,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 819
-      height: 519
+      width: 360
+      height: 508
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 409.5, y: 259.5}
+    m_Translation: {x: 180, y: 254}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -409.5
-      y: -259.5
-      width: 819
-      height: 519
+      x: -180
+      y: -254
+      width: 360
+      height: 508
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 819, y: 540}
+  m_LastWindowPixelSize: {x: 360, y: 529}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &20
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1245,9 +1300,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 772
-    width: 1147
-    height: 227
+    y: 623
+    width: 1056
+    height: 376
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
