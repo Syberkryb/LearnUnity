@@ -18,7 +18,7 @@ I found an interesting Github repository with a collection of many old games cre
 I used GitKraken to "Clone" this repository on Github
 
 And I learned that a repository is just a bunch of files, mainly source code though, in a folder/directory that keeps track of file changes 
-which can be synchronized to a server, in my case, Github.com
+which can be synchronized to a server, in my case, Github.com   
 
 Just like Dropbox, Onedrive, ICloud, and the others... But I have to make the "versions" or "commits" which basically means updates but with versions.
 
@@ -39,7 +39,6 @@ Maybe I'm gonna install an extension
  * PlantUML, could be good for design
 
 
-
 ### Unity
 
 I have used Unity to play the lesson_0 scene
@@ -50,6 +49,16 @@ I ran the tests and got ALL the tests to pass! woop woop!
 
 * Note to self; The Unity Test Runner can be accessed via: Window > Test Runner in the top toolbar
 
+### Programming
+
+We didn't get to do much coding, but we made sure everyone is ready for the next lessons.
+
+We looked at a Hello World script and talked about what the different parts of was.
+
+ * Note to self regarding syntax; 
+ * <Accessor>   <Type/Class>    <Name/Identifier>       <assignment/operator>       <value>
+ * public       string          MyStringName            =                           "HelloWorld!";
+ 
 
 
 ## Lesson 1

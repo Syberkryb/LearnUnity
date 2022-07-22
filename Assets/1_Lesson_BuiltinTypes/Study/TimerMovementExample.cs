@@ -1,15 +1,22 @@
 using UnityEngine;
 
-/*
- *  C# Complete list of builtin data types, where you can find a sometimes overwhelming amount of information, but try exploring.
- *  https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types
-*/
+//A very importent part of Unity, is the concept of the "Transform".
+//The transform is a part of every gameobject in the scene, and by extension this script.
+//It is inherited via the " : MonoBehaviour" as part of this Classes definition in some of the first lines
+
+//By calling the transform objects build in "SetPositionAndRotation" or "Translate" methods
+//the transform can be repositioned/rotated/scaled
+//If we use this relative to the in-game time, we can achieve movement and animation of any object!
+
+//This script is an example of how movement can be achieved based on time via the transform object in the scene.
+//If you select a GameObject in the scene with this script attached, you can try enabling/disabling the booleans true/false values in the inspector.
 
 public class TimerMovementExample : MonoBehaviour {
     
     public int IntTimer;
     public float FloatTimer;
     public double DoubleTimer;
+    
     public bool MoveAlongX = false;
     public bool TryWithOscilatingPosition = false;
     public bool TryWithOscilatingPositionAndIntegerChangedTimer = false;
@@ -23,16 +30,9 @@ public class TimerMovementExample : MonoBehaviour {
         DoubleTimer = 1.00000;
     }
  
+    
     public void Update()
-    {
-        //A very importent part of Unity, is the concept of the "Transform".
-        //The transform is a part of every gameobject in the scene, and by extension this script.
-        //It is inherited via the " : MonoBehaviour" as part of this Classes definition in some of the first lines
-        
-        //By calling the transform objects build in "SetPositionAndRotation" or "Translate" methods
-        //the transform can be repositioned/rotated/scaled
-        //If we use this relative to the in-game time, we can achieve movement and animation of any object!
-        
+    {       
         /* Update timers every frame with the added delta time */
         //Notice the "+=" which translates to " FloatTimer = FloatTimer + Time.deltaTime "
         FloatTimer += Time.deltaTime;
@@ -40,7 +40,7 @@ public class TimerMovementExample : MonoBehaviour {
 
         /* Movement examples */
         //No timers needed for first movement example
-        //It teleports the object along the x-axis, by "1" every frame
+        //It teleports the object along the x-axis, by "+1" every frame
         if(MoveAlongX){
             Vector3 calculateNewXValue = transform.position; //Creating a new Vector3 with the GameObjects current transform position
             calculateNewXValue.x = transform.position.x + 1; //Adds +1 in to the x-value
