@@ -47,7 +47,7 @@ I have inspected the gameobjects in the scene
 
 I ran the tests and got ALL the tests to pass! woop woop!
 
-* Note to self; The Unity Test Runner can be accessed via: Window > Test Runner in the top toolbar
+* Note to self; The Unity Test Runner can be accessed via: Window > General > Test Runner in the top toolbar
 
 ### Programming
 

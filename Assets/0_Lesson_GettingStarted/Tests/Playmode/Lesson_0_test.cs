@@ -54,14 +54,8 @@ public class Lesson_0_test
         Assert.IsNotNull(script, "Couldn't find the hello world script on any gameobjects in the scene");
     }
 
-    [UnityTest]
-    public IEnumerator PrintHelloWorldMessageExistsTest()
-    {
-        Type type = typeof(HelloWorld);
-        MethodInfo method = type.GetMethod("PrintHelloWorldMessage");
-        Assert.IsNotNull(method, "Couldn't find PrintHelloWorldMessage() method in class, are you sure you've spelled it right?");
-        yield return null;
-    }
+    
+
 
     [UnityTest]
     public IEnumerator HelloStringPublicStringExistsTest()
@@ -81,4 +75,14 @@ public class Lesson_0_test
         Assert.IsNotNull(method, "Couldn't find Start() method in class, are you sure you've spelled it right?");
         yield return null;
     }
+
+    [UnityTest]
+    public IEnumerator PrintHelloWorldMessageExistsTest()
+    {
+        Type type = typeof(HelloWorld);
+        MethodInfo method = type.GetMethod("PrintHelloWorldMessage");
+        Assert.IsNotNull(method, "Couldn't find PrintHelloWorldMessage() method in class, are you sure you've spelled it right?");
+        yield return null;
+    }
+
 }

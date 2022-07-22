@@ -39,8 +39,7 @@ public class UnityBuiltinsExample : MonoBehaviour
         if(Input.GetKey(KeyCode.Space)){
             transform.position = Vector3.MoveTowards(transform.position, MoveToPosition, Time.deltaTime*100);
         }
-
-
+        
         //If escape is pressed, reset position based on Vector3 SpawnPosition that was recorded in the Start()-method
         if(Input.GetKeyDown(KeyCode.Escape)){
             t.SetPositionAndRotation(SpawnPosition, Quaternion.identity); //"Quaternion.identity" means "no rotation"
