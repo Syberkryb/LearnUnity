@@ -9,7 +9,7 @@ public class BuiltinNumbersExample : MonoBehaviour
     public int HighestIntValue = int.MaxValue;
     public int LowestIntValue = int.MinValue;
     public int SizeOfAnIntegerInBytes = sizeof(int);
-
+    
     
     /* Definining a floating number */
     //Floating point numbers in C# include "double", "float" and "decimal"
@@ -26,7 +26,7 @@ public class BuiltinNumbersExample : MonoBehaviour
     public double LowestDouble = double.MinValue;
     public int SizeOfADoubleInBytes = sizeof(double);
     
-    //See these fields change in the inspector while the game is running
+    //See these "Fields" change in the inspector while the game is running
     public int IntTimer = 0;
     public float FloatTimer = 0;
     public double DoubleTimer = 0;

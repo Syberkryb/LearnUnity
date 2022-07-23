@@ -173,10 +173,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IntTimer: 0
   FloatTimer: 0
-  DoubleTimer: 0
-  MoveAlongX: 0
+  TryMoveAlongX: 0
   TryWithOscilatingPosition: 0
-  TryWithOscilatingPositionAndIntegerTimer: 0
+  TryWithOscilatingPositionAndIntegerChangedTimer: 0
 --- !u!114 &477463436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,7 +189,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MyString: This is my string!
-  listOfCharacters: 480065006c006c006f00
+  ArrayOfCharacters: 480065006c006c006f00
+  ListOfCharacters: 57006f0072006c006400
   MyEmptyString: 
 --- !u!114 &477463437
 MonoBehaviour:
@@ -204,16 +204,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd5e249a1e5328344bb212748ba94bda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MyLuckyNumber: 7
   HighestIntValue: 2147483647
   LowestIntValue: -2147483648
-  MyLuckyNumber: 7
   SizeOfAnIntegerInBytes: 4
+  MyLuckyFloat: 0.33333334
   HighestFloatValue: 3.4028235e+38
   LowestFloatValue: -3.4028235e+38
-  MyLuckyFloat: 0.33333334
+  SizeOfAFloatInBytes: 4
+  MyLuckyDouble: 12.345678910111213
   HighestDouble: 1.7976931348623157e+308
   LowestDouble: -1.7976931348623157e+308
-  MyLuckyDouble: 12.345678910111213
+  SizeOfADoubleInBytes: 8
+  IntTimer: 0
+  FloatTimer: 0
+  DoubleTimer: 0
 --- !u!114 &477463438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -228,7 +233,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpawnPosition: {x: 0, y: 0, z: 0}
   MoveToPosition: {x: 0, y: 0, z: 0}
-  MyTransform: {fileID: 0}
+  t: {fileID: 0}
 --- !u!1 &641820733
 GameObject:
   m_ObjectHideFlags: 0

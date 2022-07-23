@@ -6,8 +6,8 @@
 - [Assignments](#assignments)
 - [Lessons](#lessons)
   - [0. Getting started & HelloWorld!](#0-getting-started--helloworld)
-  - [1. C#, Variables and built-in types](#1-c-variables-and-built-in-types)
-  - [2. Arithmetics, conditions, flow and intro to methods](#2-arithmetics-conditions-flow-and-intro-to-methods)
+  - [1. C#, Variables, built-in types, Arithmetics](#1-c-variables-built-in-types-arithmetics)
+  - [2. Conditions, flow and intro to methods](#2-conditions-flow-and-intro-to-methods)
   - [3. List, Array and loops](#3-list-array-and-loops)
   - [4. OOP, Classes and objects](#4-oop-classes-and-objects)
   - [5. OOP continued, methods, scopes and accessors](#5-oop-continued-methods-scopes-and-accessors)
@@ -70,9 +70,9 @@ In the first lesson we will:
 
 See the [Getting started](Assets/0_Lesson_GettingStarted) chapter for further instructions.
 
-## 1. C#, Variables and built-in types
+## 1. C#, Variables, built-in types, Arithmetics
 
-## 2. Arithmetics, conditions, flow and intro to methods
+## 2. Conditions, flow and intro to methods
 
 ## 3. List, Array and loops
 
