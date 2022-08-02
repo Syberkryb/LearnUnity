@@ -29,7 +29,8 @@ public class TimerMovementExample : MonoBehaviour {
         FloatTimer = 1.0f;
     }
  
-    
+    //Called every frame
+    //Inherited via MonoBehaviour
     public void Update()
     {       
         /* Movement examples */

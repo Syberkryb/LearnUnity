@@ -26,7 +26,6 @@ public class UnityBuiltinsExample : MonoBehaviour
             t.Translate(Vector3.right * 10); //Multiplying with 10 to increase effect of translation
         }
 
-
         //Manipulating size/scale of an object
         if(Input.GetKeyDown(KeyCode.W)){
             transform.localScale += new Vector3(0.1f, 0, 0); //Scale a little on the x axis in the positive direction
