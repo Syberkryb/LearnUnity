@@ -5,7 +5,7 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     public GameObject Prefab;
-    public float KickForce = 0.1f;
+    public float KickForce = 50.0f;
     public List<Ball> Balls;
 
     void Start()

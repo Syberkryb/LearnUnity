@@ -16,7 +16,7 @@ public class Ball : MonoBehaviour
     }
 
     public void Jump(float force){
-        Vector3 ForceDirection = new Vector3(0,1,0);
+        Vector3 ForceDirection = new Vector3(0f,1f,0f);
         RigidbodyReference.AddForce(ForceDirection*force);
     }
 }

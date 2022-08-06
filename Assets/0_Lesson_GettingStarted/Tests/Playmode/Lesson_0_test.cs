@@ -61,9 +61,9 @@ public class Lesson_0_test
     public IEnumerator HelloStringPublicStringExistsTest()
     {
         Type type = typeof(HelloWorld);
-        MemberInfo[] a = type.GetMember("helloString");
-        Assert.IsTrue(a.Length > 0, "couldn't find public string helloString");
-        Assert.IsTrue((string)((FieldInfo)a[0]).GetValue(script) == "HelloWorld!", "Public helloString should have value HelloWorld!");
+        MemberInfo[] a = type.GetMember("HelloString");
+        Assert.IsTrue(a.Length > 0, "couldn't find public string HelloString");
+        Assert.IsTrue((string)((FieldInfo)a[0]).GetValue(script) == "HelloWorld!", "Public HelloString should have value HelloWorld!");
         yield return null;
     }
 
