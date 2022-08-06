@@ -15,6 +15,6 @@ public class Wolf : HostileAnimal
     // Update is called once per frame
     void Update()
     {
-        //transform.position = Vector3.MoveTowards(transform.position, ChaseAnimal.transform.position, Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, ChaseAnimal.transform.position, Time.deltaTime);
     }
 }
