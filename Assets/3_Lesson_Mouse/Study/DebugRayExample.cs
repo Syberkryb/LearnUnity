@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class DebugRayExample : MonoBehaviour
 {
-
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
-            Debug.DrawRay(ray.origin, ray.direction * float.MaxValue, Color.white, 2.0f);
+            Debug.DrawRay(ray.origin, ray.direction * 200, Color.white, 2.0f);
             if (Physics.Raycast(ray, out hit))
             {
                 if (hit.collider != null)
