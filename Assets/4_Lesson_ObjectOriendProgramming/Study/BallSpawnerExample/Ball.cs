@@ -10,16 +10,22 @@ public class Ball : MonoBehaviour
     }
 
     public void RandomColor(){
-         Color randomColor = new Color(
+        Color randomColor = new Color(
             Random.Range(0f, 1f), 
             Random.Range(0f, 1f), 
             Random.Range(0f, 1f)
-        );
+            );
+        
         GetComponent<Renderer>().material.color = randomColor;
     }
 
     public void Kick(float force){
-        Vector3 ForceDirection = new Vector3(UnityEngine.Random.Range(-2.5f, 2.5f) ,UnityEngine.Random.Range(1f, 5f),UnityEngine.Random.Range(-2.5f, 2.5f));
+        Vector3 ForceDirection = new Vector3(
+            Random.Range(-2.5f, 2.5f),
+            Random.Range(1f, 5f),
+            Random.Range(-2.5f, 2.5f)
+            );
+        
         RigidbodyReference.AddForce(ForceDirection*force, ForceMode.Impulse);
     }
 
