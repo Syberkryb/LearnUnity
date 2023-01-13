@@ -9,6 +9,7 @@ public class Wolf : HostileAnimal
     // Start is called before the first frame update
     void Start()
     {
+        _name = "Wolfie";
         ChaseAnimal = GameObject.FindObjectOfType<FriendlyAnimal>();
     }
 

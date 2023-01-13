@@ -6,6 +6,13 @@ public class Player : MonoBehaviour
 {
     public HostileAnimal SelectedAnimal = null;
 
+    void Start(){
+        Animal[] animals = FindObjectsOfType<Animal>();
+        foreach(Animal a in animals){
+            print(a.GetName());
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {

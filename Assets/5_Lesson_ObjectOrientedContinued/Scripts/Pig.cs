@@ -9,6 +9,7 @@ public class Pig : FriendlyAnimal
     // Start is called before the first frame update
     void Start()
     {
+        _name = "Babe";
         FleeFromWolf = GameObject.FindObjectOfType<HostileAnimal>();
     }
 
@@ -16,5 +17,9 @@ public class Pig : FriendlyAnimal
     void Update()
     {
         transform.position = Vector3.MoveTowards(transform.position, FleeFromWolf.transform.position, -1 * Time.deltaTime);
+    }
+    public override string GetName()
+    {
+        return _name;
     }
 }

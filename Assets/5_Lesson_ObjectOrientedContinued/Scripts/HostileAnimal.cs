@@ -4,5 +4,8 @@ using UnityEngine;
 
 public abstract class HostileAnimal : Animal, IHostileAnimal
 {
-
+    public override string GetName()
+    {
+        return _name;
+    }
 }
