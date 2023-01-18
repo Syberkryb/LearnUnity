@@ -2,7 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Animal : MonoBehaviour
+namespace Lesson_5
 {
+    public abstract class Animal : MonoBehaviour
+    {
 
+    }
 }
