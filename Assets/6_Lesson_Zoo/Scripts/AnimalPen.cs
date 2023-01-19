@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class AnimalPen : MonoBehaviour
 {
-    public List<Animal> Animals;
+    public List<Animal> Animals = new List<Animal>();
 
     public void SpawnAnimals(Dictionary<GameObject, int> spawns)
     {
@@ -20,6 +20,7 @@ public class AnimalPen : MonoBehaviour
                 go.transform.SetParent(transform);
 
                 FriendlyAnimal animal = go.GetComponent<FriendlyAnimal>();
+                Animals.Add(animal);
                 animal.Pen = this;
             }
         }
@@ -39,11 +40,13 @@ public class AnimalPen : MonoBehaviour
                     go.transform.SetParent(transform);
 
                     FriendlyAnimal animal = go.GetComponent<FriendlyAnimal>();
+                    Animals.Add(animal);
                     animal.Pen = this;
                 }
             }
         }
     }
+    
     public void SpawnAnimals(GameObject prefab, int[,] matrix)
     {
         for (int i = 0; i < matrix.GetLength(0); i++)
@@ -58,6 +61,7 @@ public class AnimalPen : MonoBehaviour
                     go.transform.SetParent(transform);
 
                     FriendlyAnimal animal = go.GetComponent<FriendlyAnimal>();
+                    Animals.Add(animal);
                     animal.Pen = this;
                 }
             }
@@ -74,6 +78,7 @@ public class AnimalPen : MonoBehaviour
             go.transform.SetParent(transform);
 
             FriendlyAnimal animal = go.GetComponent<FriendlyAnimal>();
+            Animals.Add(animal);
             animal.Pen = this;
         }
     }
@@ -88,6 +93,7 @@ public class AnimalPen : MonoBehaviour
             go.transform.SetParent(transform);
 
             FriendlyAnimal animal = go.GetComponent<FriendlyAnimal>();
+            Animals.Add(animal);
             animal.Pen = this;
         }
     }

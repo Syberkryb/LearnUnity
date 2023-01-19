@@ -12,7 +12,7 @@ namespace Lesson_6
             {
                 Busy = true;
                 Vector3 nextGraze = Pen.transform.position;
-                Vector2 rand = Random.insideUnitCircle*25f;
+                Vector2 rand = Random.insideUnitCircle * 25f;
                 nextGraze.x += rand.x;
                 nextGraze.y = 2f;
                 nextGraze.z += rand.y;
@@ -36,6 +36,11 @@ namespace Lesson_6
                 yield return null;
             }
             Busy = false;
+        }
+
+        void OnMouseDown()
+        {
+            GetComponent<MeshRenderer>().material.color = Color.green;
         }
     }
 }

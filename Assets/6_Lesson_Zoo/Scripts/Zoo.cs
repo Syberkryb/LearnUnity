@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Lesson_6;
 using UnityEngine;
 
 public class Zoo : MonoBehaviour
@@ -7,20 +8,29 @@ public class Zoo : MonoBehaviour
     public List<GameObject> AnimalPrefabs;
     public GameObject AnimalPenPrefab;
 
+    public List<AnimalPen> Pens;
+    public List<Animal> AllAnimals;
+
     void Start()
     {
+        Pens = new List<AnimalPen>();
+        AllAnimals = new List<Animal>();
+
         for (int i = 0; i < 10; i++)
         {
-            Spawner(i);
+            AnimalPen pen = Spawner(i);
+            AllAnimals.AddRange(pen.Animals);
+            Pens.Add(pen);
         }
     }
 
-    private void Spawner(int switcher)
+    private AnimalPen Spawner(int switcher)
     {
         //Spawn animal pen
         GameObject go = Instantiate(AnimalPenPrefab, transform);
         Vector3 spawnLocation = new Vector3((switcher + 1) * 50, 0, (switcher + 1) * 50);
         go.transform.SetPositionAndRotation(spawnLocation, Quaternion.identity);
+        AnimalPen pen = go.GetComponent<AnimalPen>();
 
         //Spawn animals in the pen 
         switch (switcher)
@@ -28,8 +38,6 @@ public class Zoo : MonoBehaviour
             case 0:
                 Dictionary<GameObject, int> spawns = new Dictionary<GameObject, int>();
                 spawns.Add(AnimalPrefabs[0], 5);
-
-                AnimalPen pen = go.GetComponent<AnimalPen>();
                 pen.SpawnAnimals(spawns);
                 break;
 
@@ -44,7 +52,6 @@ public class Zoo : MonoBehaviour
                     }
                 }
 
-                pen = go.GetComponent<AnimalPen>();
                 pen.SpawnAnimals(AnimalPrefabs[0], matrix);
                 break;
 
@@ -58,7 +65,6 @@ public class Zoo : MonoBehaviour
                     }
                 }
 
-                pen = go.GetComponent<AnimalPen>();
                 pen.SpawnAnimals(AnimalPrefabs[0], matrixs);
                 break;
 
@@ -69,7 +75,6 @@ public class Zoo : MonoBehaviour
                 anims.Add(AnimalPrefabs[0]);
                 anims.Add(AnimalPrefabs[0]);
 
-                pen = go.GetComponent<AnimalPen>();
                 pen.SpawnAnimals(anims);
                 break;
 
@@ -78,12 +83,12 @@ public class Zoo : MonoBehaviour
                 set.Add(AnimalPrefabs[0]);
                 set.Add(AnimalPrefabs[0]);
 
-                pen = go.GetComponent<AnimalPen>();
                 pen.SpawnAnimals(set);
                 break;
 
             default:
                 break;
         }
+        return pen;
     }
 }

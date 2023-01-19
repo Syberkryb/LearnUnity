@@ -6,7 +6,7 @@ namespace Lesson_6
 {
     public class Player : MonoBehaviour
     {
-        public HostileAnimal SelectedAnimal = null;
+        public FriendlyAnimal SelectedAnimal = null;
 
         // Update is called once per frame
         void Update()
@@ -19,9 +19,9 @@ namespace Lesson_6
                 {
                     if (hit.collider != null)
                     {
-                        if (hit.transform.GetComponent<HostileAnimal>() != null)
+                        if (hit.transform.GetComponent<FriendlyAnimal>() != null)
                         {
-                            SelectedAnimal = hit.transform.GetComponent<HostileAnimal>();
+                            SelectedAnimal = hit.transform.GetComponent<FriendlyAnimal>();
                         }
                     }
                 }
