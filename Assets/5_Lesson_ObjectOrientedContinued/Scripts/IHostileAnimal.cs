@@ -2,7 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface IHostileAnimal 
+namespace Lesson_5
 {
+    public interface IHostileAnimal
+    {
 
+    }
 }

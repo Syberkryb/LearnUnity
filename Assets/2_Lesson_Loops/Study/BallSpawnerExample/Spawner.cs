@@ -12,7 +12,7 @@ namespace Lesson_2 {
         void Start()
         {
             Balls = new List<Ball>();
-            RecursiveFibonacci(1,1,5);
+            RecursiveFibonacci(1,1,10);
         }
 
         private int RecursiveFibonacci(int first, int second, int count)

@@ -2,7 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface IFriendlyAnimal 
+namespace Lesson_5
 {
+    public interface IFriendlyAnimal
+    {
 
+    }
 }
