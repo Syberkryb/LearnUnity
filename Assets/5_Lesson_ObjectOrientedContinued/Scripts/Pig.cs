@@ -20,8 +20,4 @@ namespace Lesson_5
             transform.position = Vector3.MoveTowards(transform.position, FleeFromWolf.transform.position, -1 * Time.deltaTime);
         }
     }
-    public override string GetName()
-    {
-        return _name;
-    }
 }
