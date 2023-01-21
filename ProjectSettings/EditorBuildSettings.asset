@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/0_Lesson_GettingStarted/Scenes/Lesson0.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/7_Lesson_Sockets/Scenes/Server.unity
+    guid: fa4ac0623292c0d48a9508675d554f8e
+  - enabled: 1
+    path: Assets/7_Lesson_Sockets/Scenes/Client.unity
+    guid: c6e7bd8889e9dc848b455d2c27a61e63
   m_configObjects: {}
