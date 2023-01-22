@@ -8,14 +8,13 @@ namespace GameServer
 {
     public class Server
     {
-        public int MaxPlayers { get; private set; }
         public int Port { get; private set; }
         public TcpListener TCPListener;
         public List<Client> Clients;
 
-        public Server()
+        public Server(int port = 8052)
         {
-            Port = 8052;
+            Port = port;
             TCPListener = new TcpListener(IPAddress.Any, Port);
             Clients = new List<Client>();
             TCPListener.Start();
