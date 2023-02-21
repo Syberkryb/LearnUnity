@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Lesson_6.Animals;
 using UnityEngine;
 
 namespace Lesson_6
@@ -8,8 +9,8 @@ namespace Lesson_6
     {
         public FriendlyAnimal SelectedAnimal = null;
 
-        // Update is called once per frame
-        void Update()
+        //Check if the mouse is over an animal and if so, select it and move it
+        protected void Update()
         {
             if (Input.GetMouseButton(0))
             {

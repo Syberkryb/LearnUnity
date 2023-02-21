@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Lesson_6;
+using Lesson_6.Animals;
 using UnityEngine;
 
 public class AnimalPen : MonoBehaviour
