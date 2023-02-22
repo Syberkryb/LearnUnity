@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AnimalPrefabs:
   - {fileID: 6517551964478740236, guid: 7a9789e55aa1fb642af7a8edd276f13b, type: 3}
+  - {fileID: 6517551964478740236, guid: f8304f0b8548b9141a1ba19cafe63420, type: 3}
   AnimalPenPrefab: {fileID: 7109028269910634932, guid: 3c039efbb3299c445ad0095762cf7172, type: 3}
   Pens: []
   AllAnimals: []
@@ -422,7 +423,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1582787072}
   m_LocalRotation: {x: 0.6524941, y: -0, z: -0, w: 0.75779384}
-  m_LocalPosition: {x: 43.7, y: 50, z: 42.7}
+  m_LocalPosition: {x: 71.9, y: 99.6, z: 56}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -455,7 +456,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2135559582}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a592dd7ce38d2854eb480f7daed0f8c8, type: 3}
+  m_Script: {fileID: 11500000, guid: 70846cbe55f3b14458de93931d81bd4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SelectedAnimal: {fileID: 0}

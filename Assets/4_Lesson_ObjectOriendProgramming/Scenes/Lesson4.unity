@@ -231,7 +231,7 @@ GameObject:
   - component: {fileID: 707662017}
   - component: {fileID: 707662016}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -344,7 +344,7 @@ GameObject:
   - component: {fileID: 720833119}
   - component: {fileID: 720833118}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -443,7 +443,7 @@ GameObject:
   - component: {fileID: 899098595}
   - component: {fileID: 899098594}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -556,7 +556,7 @@ GameObject:
   - component: {fileID: 1021855406}
   - component: {fileID: 1021855405}
   m_Layer: 0
-  m_Name: 'Plane '
+  m_Name: Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -655,7 +655,7 @@ GameObject:
   - component: {fileID: 1147492253}
   - component: {fileID: 1147492252}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -812,7 +812,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1793471574}
   - component: {fileID: 1793471573}
-  - component: {fileID: 1793471572}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -820,14 +819,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1793471572
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1793471571}
-  m_Enabled: 1
 --- !u!20 &1793471573
 Camera:
   m_ObjectHideFlags: 0
@@ -896,7 +887,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1938382192}
   m_Layer: 0
-  m_Name: Area
+  m_Name: BoxParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -937,7 +928,7 @@ GameObject:
   - component: {fileID: 2002396331}
   - component: {fileID: 2002396330}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

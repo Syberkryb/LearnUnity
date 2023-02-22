@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Lesson_6
+namespace Lesson_6.Animals
 {
     public class Pig : FriendlyAnimal
     {
-        void Update()
+        protected void Update()
         {
             if (CurrentState == AnimalState.IDLE && !Busy)
             {
@@ -38,9 +38,5 @@ namespace Lesson_6
             Busy = false;
         }
 
-        void OnMouseDown()
-        {
-            GetComponent<MeshRenderer>().material.color = Color.green;
-        }
     }
 }

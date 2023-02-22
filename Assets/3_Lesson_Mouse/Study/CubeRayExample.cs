@@ -27,9 +27,9 @@ public class CubeRayExample : MonoBehaviour
         if(IsSelected){
             GetComponent<Renderer>().sharedMaterial.color = Color.red;
             Vector3 input = Input.mousePosition;
-            input.z = transform.position.z;
+            
             Vector3 worldPoint = Camera.main.ScreenToWorldPoint(input);
-            Vector3 dragLocation = new Vector3(worldPoint.x, worldPoint.y, transform.position.z);
+            Vector3 dragLocation = new Vector3(worldPoint.x, transform.position.y, worldPoint.z);
             transform.position = dragLocation;
         }else{
             GetComponent<Renderer>().sharedMaterial.color = Color.green;

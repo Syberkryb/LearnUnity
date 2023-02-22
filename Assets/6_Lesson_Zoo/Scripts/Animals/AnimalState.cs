@@ -1,4 +1,7 @@
-public enum AnimalState
+namespace Lesson_6.Animals
 {
-    IDLE, EATING, SLEEPING, HUNTING, FLEEING
+    public enum AnimalState
+    {
+        IDLE, EATING, SLEEPING, HUNTING, FLEEING
+    }
 }

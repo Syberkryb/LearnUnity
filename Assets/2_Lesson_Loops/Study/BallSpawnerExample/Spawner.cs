@@ -6,7 +6,7 @@ namespace Lesson_2 {
     public class Spawner : MonoBehaviour
     {
         public GameObject Prefab;
-        
+
         public List<Ball> Balls;
 
         void Start()
@@ -26,12 +26,12 @@ namespace Lesson_2 {
                 spawnedPrefab.transform.SetParent(transform);
             }
 
-            count--;           
+            count--;
             if(count == 0) {
                 return next;
             }else{
                 return RecursiveFibonacci(second, next, count);
             }
-        }        
+        }
     }
 }
