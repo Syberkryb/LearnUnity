@@ -1,0 +1,28 @@
+@startuml
+
+actor Player
+actor FriendlyAnimal
+actor HostileAnimal
+
+rectangle "Friendly Animal"{
+    (Feed)
+    (Pet)
+    (MoveAround)
+}
+
+rectangle "Hostile Animal"{
+    (Attack)
+    (Chase)
+}
+
+Player --> (Feed)
+(Feed) <-- FriendlyAnimal
+Player --> (Pet)
+(Pet) <-- FriendlyAnimal
+Player --> (Attack)
+(Attack) <-- HostileAnimal
+FriendlyAnimal -up-> (MoveAround)
+HostileAnimal -up-> (Chase)
+
+
+@enduml
