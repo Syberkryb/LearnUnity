@@ -12,7 +12,7 @@ namespace Lesson_6.Animals
             {
                 Busy = true;
                 Vector3 nextGraze = Pen.transform.position;
-                Vector2 rand = Random.insideUnitCircle * 25f;
+                Vector2 rand = Random.insideUnitCircle * IdleArea;
                 nextGraze.x += rand.x;
                 nextGraze.y = 2f;
                 nextGraze.z += rand.y;
