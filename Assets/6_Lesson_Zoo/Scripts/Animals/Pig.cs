@@ -38,5 +38,15 @@ namespace Lesson_6.Animals
             Busy = false;
         }
 
+        public override void OnCollisionEnter(Collision collision)
+        {
+            if(collision.gameObject.GetComponent<Hand>() != null)
+            {
+                print("Pig was petted");
+            }else if(collision.gameObject.GetComponent<Arm>() != null)
+            {
+                print("Pig was hit");
+            }
+        }
     }
 }
