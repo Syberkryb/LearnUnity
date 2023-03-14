@@ -11,5 +11,10 @@ namespace Lesson_6.Animals
         public bool Busy = false;
         protected Vector3 IdleCenter;
         protected AnimalState CurrentState = AnimalState.IDLE;
+
+        protected virtual void Start()
+        {
+            IdleCenter = transform.position;
+        }
     }
 }
