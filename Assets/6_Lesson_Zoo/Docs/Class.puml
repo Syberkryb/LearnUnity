@@ -3,17 +3,32 @@
 namespace Lesson_6{
     class AnimalPen <<MonoBehaviour>>{
         + List<Animal> Animals
-        + void SpawnAnimals(Dictionary<GameObject, int> spawns)
-        + void SpawnAnimals(GameObject prefab, int[][] matrix)
-        + void SpawnAnimals(GameObject prefab, int[,] matrix)
         + void SpawnAnimals(List<GameObject> anims)
-        + void SpawnAnimals(HashSet<GameObject> animals)
     }
 
     class Player <<MonoBehaviour>>{
         + FriendlyAnimal SelectedAnimal
+        + GameObject Arm
+        + GameObject Wrist
+        + GameObject Hand
         # void Update()
     }
+
+    class Arm{
+        + void OnCollisionEnter(Collision collision)
+    }
+
+    class Wrist{
+        
+    }
+
+    class Hand{
+        + void OnCollisionEnter(Collision collision)
+    }
+
+    Player -- Arm
+    Arm -- Wrist
+    Wrist -- Hand
 
     class Zoo <<MonoBehaviour>>{
         + List<GameObject> AnimalPrefabs
@@ -32,6 +47,7 @@ namespace Lesson_6{
             HUNTING
             FLEEING
         }
+
         abstract class Animal <<MonoBehaviour>>{
             + float speed = 1.0f
             + float IdleArea = 25.0f
@@ -43,6 +59,7 @@ namespace Lesson_6{
         abstract class FriendlyAnimal{
             + AnimalPen Pen
             + void OnMouseDown()
+            + void OnCollisionEnter(Collision collision)
         }
 
         abstract class HostileAnimal{

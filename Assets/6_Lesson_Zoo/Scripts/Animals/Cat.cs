@@ -34,5 +34,16 @@ namespace Lesson_6.Animals
             // Increase the angle based on the speed
             _angle += speed * Time.deltaTime;
         }
+
+        public override void OnCollisionEnter(Collision collision)
+        {
+            if(collision.gameObject.GetComponent<Hand>() != null)
+            {
+                print("Cat was petted");
+            }else if(collision.gameObject.GetComponent<Arm>() != null)
+            {
+                print("Cat was hit");
+            }
+        }
     }
 }

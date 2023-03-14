@@ -20,5 +20,16 @@ namespace Lesson_6.Animals
             _rndStart += Time.deltaTime;
             transform.position = new Vector3(IdleCenter.x, IdleCenter.y, IdleCenter.z + (IdleArea * Mathf.Sin(_rndStart * speed)));
         }
+
+        public override void OnCollisionEnter(Collision collision)
+        {
+            if(collision.gameObject.GetComponent<Hand>() != null)
+            {
+                print("Pig was petted");
+            }else if(collision.gameObject.GetComponent<Arm>() != null)
+            {
+                print("Pig was hit");
+            }
+        }
     }
 }
