@@ -12,5 +12,9 @@ namespace Lesson_6.Animals
         {
             GetComponent<MeshRenderer>().material.color = Color.green;
         }
+
+        public virtual void OnCollisionEnter(Collision collision){
+            print("FriendlyAnimal collided with " + collision.gameObject.name);
+        }
     }
 }
