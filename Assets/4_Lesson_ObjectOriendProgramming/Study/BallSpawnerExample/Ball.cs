@@ -28,7 +28,11 @@ public class Ball : MonoBehaviour
     //Add force to the ball in the up direction
     public void Floaty(float force)
     {
-        Vector3 ForceDirection = new Vector3(0f, 1f, 0f);
+        Vector3 ForceDirection = new Vector3(
+            Random.Range(-50f,50f),
+            Random.Range(0f, 0f),
+            Random.Range(-50f, 50f)
+            );
         GetComponent<Rigidbody>().AddForce(ForceDirection * force);
     }
 }

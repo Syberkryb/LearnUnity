@@ -6,7 +6,7 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     public GameObject Prefab;
-    public float KickForce = 50.0f;
+    public float KickForce = 100.0f;
     public List<Ball> Balls = new List<Ball>();
 
     void Update()

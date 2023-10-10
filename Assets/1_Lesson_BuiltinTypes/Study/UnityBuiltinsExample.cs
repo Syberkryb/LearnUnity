@@ -19,10 +19,10 @@ public class UnityBuiltinsExample : MonoBehaviour
     void Update()
     {
         //Using Unitys builtin "Input" handler 
-        if(Input.GetKey(KeyCode.A)){
+        if(Input.GetKey(KeyCode.D)){
             transform.Translate(Vector3.left * 10); //Multiplying with 10 to increase effect of translation
         }
-        if(Input.GetKey(KeyCode.D) == true){
+        if(Input.GetKey(KeyCode.A) == true){
             t.Translate(Vector3.right * 10); //Multiplying with 10 to increase effect of translation
         }
 
